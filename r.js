@@ -26,4 +26,4 @@ hostname = *.oracle.bendingspoonsapps.com
 ***********************************/
 
 
-var obj=JSON.parse($response.body);-1!=$request.url.indexOf("remini")?obj.me.active_subscriptions_ids=["com.bigwinepot.nwdn.international.1y_p99_99_ft_pro"],$done({body:JSON.stringify(obj)});
+var chxm1023=JSON.parse($response.body);-1!=$request.url.indexOf("remini")?chxm1023.me.active_subscriptions_ids=["com.bigwinepot.nwdn.international.1y_p99_99_ft_pro"],$done({body:JSON.stringify(chxm1023)});
