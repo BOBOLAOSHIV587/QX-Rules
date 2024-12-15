@@ -4,7 +4,7 @@
 *******************************
     
 [rewrite_local]
-^https?:\/\/link\.zhihu\.com\/\?target\=.*$ url script-echo-response https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/zhihu2.js
+^https?:\/\/link\.zhihu\.com\/\?target\=.*$ url script-echo-response https://raw.githubusercontent.com/BOBOLAOSHIV587/QX-Rules/refs/heads/main/zhihu2.js
 
 [mitm]
 hostname = link.zhihu.com
