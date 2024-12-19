@@ -84,6 +84,13 @@ if (typeof responseBody === 'string') {
       delete parsedData.data.serviceModule;
     }
 
+    if (requestUrl.indexOf('business-vip-presale-mobile-web/page/ts') !== -1) {
+      // 修改用户 VIP 信息
+      parsedData.data.modules[0].userInfo.subtitle = `2999-09-09到期`;
+      parsedData.data.modules[0].userInfo.userLevel.userLevelIcon = 'https://imagev2.xmcdn.com/storages/14fe-audiofreehighqps/05/3A/GMCoOSAJzaapAAAFqQK5WqHL.png!op_type=0&magick=webp&xmagick=webp';
+      parsedData.data.modules[0].userInfo.vipStatus = 2;
+    }
+
     // 处理其他 URL 的逻辑略作省略，基本模式类似，修改相应字段或删除无用数据
 
     // 将修改后的 JSON 对象重新转换为字符串
